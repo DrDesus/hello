@@ -1,6 +1,10 @@
 const express = require('express');
 const app=express();
 
+app.get('*',(req,res,next)=>{
+    console.log('new req');
+    next();
+})
 
 app.get('/hello',(req,res)=>{
     res.send('pisos');

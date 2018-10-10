@@ -1,10 +1,13 @@
 {
-  "name": "First",
+  "name": "first",
   "version": "1.0.0",
   "main": "app.js",
   "author": "Desus",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "scripts":{
+    "start": "nodemon app.js"
   }
 }
